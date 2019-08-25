@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Need to instal
+`yarn add global wml`
+add modules for react-native from package/app directory
+`wml add ../common ./node_modules/@runninglist/common`
+`wml start`
 
 ## Available Scripts
 

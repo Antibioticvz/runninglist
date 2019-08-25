@@ -4,12 +4,16 @@
   "private": true,
   "scripts": {
     "start": "react-native start",
+    "ios": "react-native run-ios",
     "test": "jest",
     "lint": "eslint ."
   },
   "dependencies": {
+    "@runninglist/common": "1.0.0",
+    "global": "^4.4.0",
     "react": "16.8.6",
-    "react-native": "0.60.5"
+    "react-native": "0.60.5",
+    "wml": "^0.0.83"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
@@ -28,5 +32,13 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "workspaces": {
+    "nohoist": [
+      "react-native",
+      "react-native/**",
+      "react",
+      "react/**"
+    ]
   }
 }
