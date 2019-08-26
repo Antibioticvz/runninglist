@@ -9,12 +9,12 @@
     "watch": "tsc --watch"
   },
   "dependencies": {
-    "react": "^16.9.0",
-    "react-native": "^0.60.5"
+    "react": "16.8.3",
+    "react-native": "0.59.10"
   },
   "devDependencies": {
     "@types/react-native": "^0.60.8",
     "rimraf": "^3.0.0",
-    "typescript": "^3.5.3"
+    "typescript": "3.4.5"
   }
 }
