@@ -30,5 +30,17 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "workspaces": {
+    "nohoist": [
+      "react-native",
+      "react-native/**",
+      "react",
+      "react/**",
+      "expo",
+      "expo/**",
+      "react-native-unimodules",
+      "react-native-unimodules/**"
+    ]
   }
 }
