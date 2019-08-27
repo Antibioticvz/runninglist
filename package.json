@@ -6,19 +6,7 @@
   "repository": "https://github.com/Antibioticvz/runninglist.git",
   "author": "antibioticvz@gmail.com <antibioticvz@gmail.com>",
   "license": "MIT",
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ],
-    "nohoist": [
-      "**/react-native",
-      "**/react-native/**",
-      "**/react",
-      "**/react/**",
-      "**/expo",
-      "**/expo/**",
-      "**/react-native-unimodules",
-      "**/react-native-unimodules/**"
-    ]
-  }
+  "workspaces": [
+    "packages/*"
+  ]
 }
